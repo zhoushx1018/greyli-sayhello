@@ -31,8 +31,8 @@ $ flask forge
 启动http服务
 
 ```
-## Running on http://127.0.0.1:5000/
-$ flask run
+## Running on http://0.0.0.0:8080/
+$ flask run -h 0.0.0.0  -p 8080 
 ```
 
 
