@@ -35,4 +35,18 @@ $ flask forge
 $ flask run -h 0.0.0.0  -p 8080 
 ```
 
+在本地尝试访问服务
+
+```
+$ curl http://localhost:8080
+```
+
+通过浏览器访问服务
+
+```
+http://IP:8080
+```
+
+
+
 
