@@ -1,0 +1,38 @@
+# SayHello
+
+《[Flask Web 开发实战](http://helloflask.com/book)》 第7章留言版
+
+Demo: http://sayhello.helloflask.com
+
+![Screenshot](http://helloflask.com/screenshots/sayhello.png)
+
+
+## 安装
+
+git clone源码
+```
+$ git clone https://github.com/greyli/sayhello.git
+$ cd sayhello
+```
+
+安装依赖
+```
+
+$ pip3 install -r requirements.txt
+```
+
+
+预先在DB生成20条假消息
+```
+$ flask forge
+
+```
+
+启动http服务
+
+```
+## Running on http://127.0.0.1:5000/
+$ flask run
+```
+
+
