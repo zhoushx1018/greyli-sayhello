@@ -12,7 +12,7 @@ from sayhello.forms import HelloForm
 from sayhello.models import Message
 
 
-@app.route('/', methods=['GET', 'POST'])
+@app.route('/hello', methods=['GET', 'POST'])
 def index():
     form = HelloForm()
     if form.validate_on_submit():

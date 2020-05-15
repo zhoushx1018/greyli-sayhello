@@ -38,13 +38,13 @@ $ flask run -h 0.0.0.0  -p 8080
 在本地尝试访问服务
 
 ```
-$ curl http://localhost:8080
+$ curl http://localhost:8080/hello
 ```
 
 通过浏览器访问服务
 
 ```
-http://IP:8080
+http://IP:8080/hello/
 ```
 
 
